@@ -1,0 +1,83 @@
+/* Colors and fonts */
+body {
+	background-color: #ecdfc8;
+	color: #c06c84; 
+	font-family: Roboto;
+	font-size: 20px;
+}
+
+h1, h2, h3 {
+	font-family: Oswald, sans-serif;
+}
+
+h1 {
+	color: #ecb390; 
+	font-size: 50px;
+	font-weight: 600;
+    padding: 25px;
+    margin: 4px auto;
+    border-radius: 4px;
+    width: 900px
+
+}
+
+h2 {
+	color: #df7861;
+	font-size: 25px;
+	font-weight: stronger;
+	padding: 25px;
+    margin: 4px auto;
+    border-radius: 4px;
+    width: 900px
+
+}
+
+a {
+	text-decoration: none;
+	color: #79bac1;
+	padding: 25px;
+    margin: 4px auto;
+    border-radius: 4px;
+    width: 900px
+}
+a:hover {
+	color: orange;
+}
+
+@media (max-width: 700px) {
+	.container {
+		width: 560px;
+	}
+}
+
+@media (max-width: 800px) {
+	.container {
+		width: 760px;
+	}
+
+.img-circle {
+  border-radius: 50%;
+}
+.text-center {
+  text-align: center;
+}
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
